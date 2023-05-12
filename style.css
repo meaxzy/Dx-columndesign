@@ -12,6 +12,8 @@ body{
 .firstsection{
     height: 460px;
     display: flex;
+    margin: 0 auto;
+    max-width: 1500px;
 }
 .firstsection-leftdiv{
     height: 100%;
@@ -61,6 +63,8 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
+    margin: 0 auto;
+    max-width: 1500px;
 }   
 .secondsection-leftdiv{
     width: 310px;
@@ -84,6 +88,8 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
+    margin: 0 auto;
+    max-width: 1500px;
 }
 
 .thirdsection-leftdiv,
@@ -105,4 +111,14 @@ span{
 
 .thirdsection-rightdiv p{
     margin: 10px 0;
+}
+.footer{
+    background-color: var(--main-color);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+}
+.footer-icon{
+    margin: 0 5px;
 }

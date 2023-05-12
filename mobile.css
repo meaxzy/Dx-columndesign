@@ -11,8 +11,8 @@
                 width: 40%;
             }
         
-            .heading {
-                font-size: 25px;
+            .firstsection-leftdiv h1 {
+                font-size: 20px;
             }
         
             p {
@@ -57,6 +57,15 @@
             }
             .thirdsection-leftdiv{
                 margin-top: 30px;
+            }
+
+            .footer{
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 30px;
+            }
+            .footer-iconcontainer{
+                margin: 15px 0;
             }
     
 }
